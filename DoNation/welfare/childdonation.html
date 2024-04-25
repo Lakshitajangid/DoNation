@@ -1,0 +1,63 @@
+<Html>  
+    <head>   
+    <title>Donation</title> 
+    <style>
+        body{text-align: center;
+            background-image:url(c.jpeg) ;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        
+        }
+        .homelessdonation{
+            background-color: rgb(0,0,0,.5);
+            width: 800px;
+           margin: auto;
+        }
+        
+        div{padding:10px;}
+        form { 
+            color: white;
+        
+        }
+        
+    
+
+    </style>  
+    </head> 
+    <body >
+        <div class="homelessdonation">
+        <h1>DoNation</h1>
+    <h3 style="border: width 2px; border: height 4px; border-style:solid; border: 5px outset black;">
+    <form action="insert_child.php" method="POST">  
+        <h3>Every_Child's_Voice</h3> 
+    Name         
+    <input type="text" name="Name" size="15"/> <br> <br>  
+    Email:  
+    <input type="email" id="email" name="email"/>
+    <br> <br>  
+    Phone :   
+    <input type="text" name="country code"  value="+91" size="2"/>   
+    <input type="text" name="phone" size="10"/><br><br>
+    Address:
+    <br>  
+    <textarea cols="80" rows="5" value="address" name="add">  
+    </textarea>  
+    <br><br> 
+    Donation Category:    
+    <select>  
+    <option value="Donation Category" name="DC">Donation Category</option>  
+    <option value="Food">Food</option>  
+    <option value="Clothes">Clothes</option>  
+    <option value="Blankets">Blankets</option>  
+    <option value="education">education</option>  
+    <option value="Funds">Funds</option>  
+    <option value="Other">Other</option> 
+    </select> 
+    <br><br>
+    <input type="button" value="Submit"/>  <br><br>
+    </form>  
+    </h3>
+</div>
+    </body>  
+    </html>
